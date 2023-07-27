@@ -16,19 +16,44 @@ body {
 body {
   font-family: sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 #headerDiv {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15%;
+  height: 25%;
+  font-size: 40px;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  background: linear-gradient(to bottom left, #8aff80 90%, #2ca02c 50%);
+  background-size: 100% 100%;
+  color: black;
 }
 #resultsDiv {
   background-color: #c3e6c2;
-}
-.resultCard {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+.workoutDiv {
+  display: flex;
   background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* .exerciseDiv {
+} */
+main {
+  background: linear-gradient(to top left, #8aff80 90%, #2ca02c 90%);
+  background-size: 100% 100%;
+}
+#buttonDiv {
+  background-color: grey;
+  border-radius: 10px;
 }
